@@ -1,43 +1,52 @@
 # Melhorias para o Portfolio
 
-## Ja Concluido
-- [x] Nome e bio personalizados
+## Já Concluído
+
+- [x] Nome e bio personalizados (Liane Duarte)
 - [x] Skills reais (C#, Python, ASP.NET Core, WPF, MVVM, etc.)
-- [x] 3 projetos reais com descricoes detalhadas
-- [x] Links de contacto (Email, GitHub, LinkedIn)
+- [x] 3 projetos reais com descrições detalhadas
+- [x] Links de contacto corrigidos (Email, GitHub, LinkedIn)
 - [x] Logo personalizado (LD)
-- [x] Localizacao atualizada
+- [x] Localização atualizada (Marco de Canaveses)
+- [x] Foto/avatar na secção hero com animação
+- [x] Código separado em ficheiros (HTML, CSS, JS)
+- [x] Estrutura de pastas organizada (css/, js/, assets/images/)
+- [x] Acentos e ortografia corrigidos
+- [x] Paleta de cores ajustada (azul elegante + navy)
+- [x] Header transparente com efeito ao fazer scroll
+- [x] Layout do hero com mais espaço vertical
+- [x] Texto secundário mais legível (melhor contraste)
+- [x] Botão "Ver Projetos" mais visível
 
 ## Prioridade Alta - Visual
 
-- [ ] Adicionar foto/avatar pessoal na seccao hero ou about
 - [ ] Adicionar imagens/screenshots nos cards de projetos
 - [ ] Criar favicon personalizado (LD) para a tab do browser
 
-## Prioridade Media - Funcionalidades
+## Prioridade Média - Funcionalidades
 
-- [ ] Adicionar link real no projeto 02 (Sistema de Gestao de Avaliacoes)
-- [ ] Adicionar link real no projeto 03 (Aplicacao de Gestao de Obras) se possivel
+- [ ] Adicionar link real no projeto 02 (Sistema de Gestão de Avaliações)
+- [ ] Adicionar link real no projeto 03 (Aplicação de Gestão de Obras) se possível
 - [ ] Modo claro/escuro com toggle
-- [ ] Botao para download do CV em PDF
+- [ ] Botão para download do CV em PDF
 
-## Prioridade Media - Novas Seccoes
+## Prioridade Média - Novas Secções
 
-- [ ] Adicionar seccao de Educacao (UTAD, curso, ano)
-- [ ] Adicionar seccao de Experiencia (estagio na JD Obras e Manutencao)
-- [ ] Certificacoes ou cursos extra (se tiveres)
+- [ ] Adicionar secção de Educação (UTAD, curso, ano)
+- [ ] Adicionar secção de Experiência profissional
+- [ ] Certificações ou cursos extra (se tiveres)
 
-## Prioridade Baixa - Tecnico
+## Prioridade Baixa - Técnico
 
-- [ ] Adicionar meta tags para SEO (descricao, keywords)
+- [ ] Adicionar meta tags para SEO (descrição, keywords)
 - [ ] Adicionar Open Graph tags para partilha em redes sociais
-- [ ] Adicionar favicon.ico
-- [ ] Testar acessibilidade (contraste, navegacao por teclado)
+- [ ] Testar acessibilidade (contraste, navegação por teclado)
 - [ ] Validar HTML no W3C Validator
+- [ ] Otimizar imagem do avatar (comprimir)
 
 ## Ideias Extra
 
-- [ ] Formulario de contacto funcional (Formspree)
-- [ ] Integracao com API do GitHub para mostrar repositorios automaticamente
-- [ ] Versao em ingles
-- [ ] Animacoes mais elaboradas nos projetos
+- [ ] Formulário de contacto funcional (Formspree)
+- [ ] Integração com API do GitHub para mostrar repositórios
+- [ ] Versão em inglês
+- [ ] Animações mais elaboradas nos projetos
