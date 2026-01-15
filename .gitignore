@@ -1,0 +1,9 @@
+# Visual Studio
+.vs/
+
+# Node modules (se usares no futuro)
+node_modules/
+
+# OS files
+Thumbs.db
+.DS_Store
