@@ -14,7 +14,7 @@
 <body>
     <!-- Header -->
     <header class="scrolled">
-        <div class="logo">LD</div>
+        <a href="../index.html" class="logo">LD</a>
         <nav>
             <a href="../index.html">Início</a>
             <a href="../index.html#projetos">Projetos</a>
@@ -38,37 +38,53 @@
             <span class="tag">EF Core</span>
         </div>
 
-        <div class="project-image">
-            <img src="../assets/images/projeto-marketplace.png" alt="Screenshot do Marketplace de Veículos" onerror="this.style.display='none'">
-        </div>
-
         <div class="project-content">
             <h2>Sobre o Projeto</h2>
-            <p>Aplicação web completa desenvolvida para a compra e venda de veículos usados. O sistema permite que utilizadores publiquem anúncios, pesquisem veículos com filtros avançados e façam reservas.</p>
+            <p>Aplicação web completa para a compra e venda de veículos usados, desenvolvida em equipa no âmbito académico.</p>
+            <p>A plataforma permite a interação entre compradores, vendedores e administradores, oferecendo funcionalidades como pesquisa avançada, reservas de veículos, comunicação entre utilizadores e gestão administrativa centralizada.</p>
+
+            <div class="project-image-hero">
+                <img src="../assets/images/marketplace/pagina_inicial.png" alt="Página inicial do Marketplace">
+            </div>
 
             <h2>Funcionalidades</h2>
             <ul>
-                <li>Perfis diferenciados: comprador, vendedor e administrador</li>
-                <li>Sistema de pesquisa avançada com múltiplos filtros</li>
-                <li>Gestão de reservas de veículos</li>
-                <li>Backoffice administrativo completo</li>
-                <li>Autenticação e autorização de utilizadores</li>
+                <li>Perfis diferenciados para compradores, vendedores e administradores</li>
+                <li>Pesquisa avançada com filtros dinâmicos e ordenação</li>
+                <li>Sistema de reservas com controlo automático do estado dos anúncios</li>
+                <li>Comunicação direta entre compradores e vendedores</li>
+                <li>Área administrativa (backoffice) para gestão e moderação da plataforma</li>
+                <li>Avaliação de vendedores e sistema de notificações automáticas</li>
             </ul>
+
+            <div class="project-gallery">
+                <div class="gallery-item">
+                    <img src="../assets/images/marketplace/listagemVeiculosEFiltros.png" alt="Listagem com filtros">
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/marketplace/Detalhes_Veiculo.png" alt="Página de detalhe">
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/marketplace/PaginaAdmistrativa.png" alt="Backoffice administrativo">
+                </div>
+            </div>
 
             <h2>Tecnologias Utilizadas</h2>
             <ul>
                 <li><strong>Backend:</strong> ASP.NET Core MVC</li>
                 <li><strong>Base de Dados:</strong> SQL Server com Entity Framework Core</li>
-                <li><strong>Arquitetura:</strong> Code-First com modelação de dados</li>
-                <li><strong>Frontend:</strong> Razor Views, HTML, CSS, JavaScript</li>
+                <li><strong>Frontend:</strong> HTML, CSS, JavaScript e Razor Views</li>
+                <li><strong>Arquitetura:</strong> Organização por camadas, com separação entre lógica e dados</li>
             </ul>
 
             <h2>Desafios e Aprendizagens</h2>
-            <p>Este projeto foi desenvolvido em equipa, o que permitiu aprender sobre colaboração, gestão de código com Git e divisão de tarefas. O foco principal foi na modelação de dados e implementação Code-First com Entity Framework.</p>
+            <p>Este projeto foi desenvolvido em equipa, permitindo consolidar competências de trabalho colaborativo, planeamento e gestão de código com Git.</p>
+            <p>O principal foco esteve na modelação de dados e na implementação de regras de negócio, garantindo a coerência dos estados dos anúncios, a integridade da informação e a correta separação de permissões entre os diferentes perfis de utilizador.</p>
         </div>
 
         <div class="project-links">
             <a href="https://github.com/liane04/LAWBD404" class="cta-button" target="_blank">Ver no GitHub</a>
+            <a href="../assets/pdf/Relatório_MarketplaceDeVeículosUsados.pdf" class="cta-button" target="_blank">Ver Relatório</a>
         </div>
     </section>
 

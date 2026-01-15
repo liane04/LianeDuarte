@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Gestão de Avaliações | Liane Duarte</title>
+    <title>Aplicação de Gestão de Avaliações Académicas | Liane Duarte</title>
     <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 <body>
     <!-- Header -->
     <header class="scrolled">
-        <div class="logo">LD</div>
+        <a href="../index.html" class="logo">LD</a>
         <nav>
             <a href="../index.html">Início</a>
             <a href="../index.html#projetos">Projetos</a>
@@ -27,8 +27,8 @@
         <a href="../index.html#projetos" class="back-link">← Voltar aos Projetos</a>
 
         <div class="project-header">
-            <span class="project-number">02</span>
-            <h1>Sistema de Gestão de Avaliações</h1>
+            <span class="project-number">04</span>
+            <h1>Aplicação de Gestão de Avaliações Académicas</h1>
         </div>
 
         <div class="project-tags">
@@ -38,43 +38,60 @@
             <span class="tag">XML</span>
         </div>
 
-        <div class="project-image">
-            <img src="../assets/images/projeto-avaliacoes.png" alt="Screenshot do Sistema de Avaliações" onerror="this.style.display='none'">
-        </div>
-
         <div class="project-content">
             <h2>Sobre o Projeto</h2>
-            <p>Aplicação desktop desenvolvida para gestão académica, permitindo o controlo de alunos, tarefas e classificações de forma organizada e eficiente.</p>
+            <p>Aplicação desktop desenvolvida em equipa no âmbito da unidade curricular de Laboratório de Planeamento e Desenvolvimento de Software, com o objetivo de apoiar docentes na gestão de avaliações académicas.</p>
+            <p>A aplicação permite gerir alunos, grupos, tarefas de avaliação e classificações, bem como consultar pautas finais e visualizar estatísticas de desempenho, através de uma interface intuitiva e organizada.</p>
+
+            <div class="project-image-hero">
+                <img src="../assets/images/avaliacoes/avaliacoes-hero.png" alt="Dashboard da aplicação de avaliações" onerror="this.parentElement.style.display='none'">
+            </div>
 
             <h2>Funcionalidades</h2>
             <ul>
-                <li>Gestão completa de alunos e turmas</li>
-                <li>Criação e atribuição de tarefas</li>
-                <li>Registo de classificações</li>
-                <li>Cálculo automático de médias e estatísticas</li>
-                <li>Persistência de dados em ficheiros XML</li>
+                <li>Gestão completa de alunos (criar, editar, remover, importar e exportar)</li>
+                <li>Organização de alunos em grupos de trabalho</li>
+                <li>Criação e gestão de tarefas de avaliação com pesos configuráveis</li>
+                <li>Registo e edição de classificações por grupo e por aluno</li>
+                <li>Consulta da pauta final com médias ponderadas</li>
+                <li>Visualização gráfica da distribuição de notas (histograma)</li>
+                <li>Gestão do perfil do utilizador (docente)</li>
             </ul>
+
+            <div class="project-gallery">
+                <div class="gallery-item">
+                    <img src="../assets/images/avaliacoes/avaliacoes-alunos.png" alt="Gestão de alunos" onerror="this.parentElement.style.display='none'">
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/avaliacoes/avaliacoes-tarefas.png" alt="Gestão de tarefas" onerror="this.parentElement.style.display='none'">
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/avaliacoes/avaliacoes-pauta.png" alt="Pauta final ou histograma" onerror="this.parentElement.style.display='none'">
+                </div>
+            </div>
 
             <h2>Tecnologias Utilizadas</h2>
             <ul>
                 <li><strong>Linguagem:</strong> C#</li>
-                <li><strong>Framework:</strong> WPF (Windows Presentation Foundation)</li>
-                <li><strong>Arquitetura:</strong> MVVM (Model-View-ViewModel)</li>
-                <li><strong>Persistência:</strong> XML para armazenamento de dados</li>
+                <li><strong>Framework:</strong> WPF (.NET)</li>
+                <li><strong>Arquitetura:</strong> MVVM (Model–View–ViewModel)</li>
+                <li><strong>Persistência de Dados:</strong> Ficheiros XML</li>
             </ul>
 
             <h2>Desafios e Aprendizagens</h2>
-            <p>Este projeto permitiu aprofundar conhecimentos em arquitetura MVVM, com clara separação de responsabilidades entre camadas. A implementação do cálculo automático de estatísticas foi um desafio interessante que exigiu atenção à lógica de negócio.</p>
+            <p>O desenvolvimento desta aplicação permitiu consolidar conhecimentos sobre o padrão arquitetural MVVM e a separação de responsabilidades entre interface, lógica e dados.</p>
+            <p>Um dos principais desafios foi garantir a coerência da informação ao longo de toda a aplicação, assegurando que alterações em alunos, grupos, tarefas ou classificações fossem refletidas corretamente na pauta final e nas estatísticas. O projeto reforçou também competências de trabalho em equipa, planeamento e desenvolvimento de aplicações desktop robustas e funcionais.</p>
         </div>
 
         <div class="project-links">
-            <a href="../index.html#projetos" class="cta-button">Projeto Académico</a>
+            <a href="../assets/pdf/Relatorio1_AppDeGestaoDeAvaliacoes.pdf" class="cta-button" target="_blank" rel="noopener noreferrer">Ver Relatório 1</a>
+            <a href="../assets/pdf/Relatorio2_AppDeGestaoDeAvaliacoes.pdf" class="cta-button" target="_blank" rel="noopener noreferrer">Ver Relatório 2</a>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>© 2026 Liane Duarte. Feito com 🤍 em Marco de Canaveses, Portugal.</p>
+        <p>© 2026 Liane Duarte. Feito com ❤️ em Marco de Canaveses, Portugal.</p>
     </footer>
 
     <script src="../js/script.js"></script>
