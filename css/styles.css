@@ -227,6 +227,10 @@ section {
     margin-top: 2rem;
 }
 
+.about-content .cta-button {
+    margin-top: 2rem;
+}
+
 .skill-tag {
     padding: 0.5rem 1.2rem;
     background: var(--card-bg);
