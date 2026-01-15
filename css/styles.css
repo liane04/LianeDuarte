@@ -21,7 +21,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Fundo com efeito de grao */
+/* Fundo com efeito de grão */
 body::before {
     content: '';
     position: fixed;
@@ -154,7 +154,7 @@ nav a:hover::after {
     transform: translateY(-2px);
 }
 
-/* Decoracao geometrica no hero */
+/* Decoração geométrica no hero */
 .hero::after {
     content: '';
     position: absolute;
